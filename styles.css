@@ -57,9 +57,10 @@ body {
 .rightDiv {
     vertical-align: top;
     display: inline-block;
-    width: 600px;
-    margin: 100px auto;
-    
+    width: 300px;
+    margin: 20px 0px 150px 100px;
+    padding: 50px;
+    border: solid white;
 }
 
 .rightDiv ul {
@@ -81,4 +82,23 @@ h2 {
     text-align: center;
     font-size: 200%;
     text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.685);
+}
+
+.link1, .link2 {
+    display: block;
+    font-size: 200%;
+    text-align: center;
+    text-decoration: none;
+    margin: 10px 0px 80px 0px;
+}
+
+.deschampsLink {
+    width: 300px;
+    text-align: justify;
+    margin: auto;
+    background-color: white;
+    padding: 20px;
+}
+.deschampsLink p, .deschampsLink em, .deschampsLink strong {
+    font-size: 25px;
 }
