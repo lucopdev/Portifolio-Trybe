@@ -1,5 +1,5 @@
 :root {
-    --corTexto: #000000;
+    --corTexto: #cccccc;
     --corFundo: #171717;
     --corNavigation1: #08A2C6;
     --corNavigation2: #F5522C;
@@ -12,8 +12,11 @@
 
 }
 
+body {
+    background-image: linear-gradient(to right, var(--corNavigation1), var(--corNavigation2));
+}
 .navigation {
-    height: 50px;
+    height: 80px;
     background-image: linear-gradient(to right, var(--corNavigation1), var(--corNavigation2));
   
 }
@@ -26,19 +29,25 @@
     font-size: 25px;
     display: inline-block;
     color: white;
-    margin: 10px 40px 10px 10px;
+    margin: 20px 40px 10px 10px;
+}
+
+.leftDiv {
+    height: max-content;
+    font-size: 16px;
+    width: 80%;
+    display: inline-block;
+    background-color: var(--corFundo);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
 }
 
 h1 {
     font-size: 40px;
     text-align: center;
-    color: var(--corTexto);
-    margin: 50px 0px;
-    padding: 10px 10px 10px 35%;
-    width: 200px;
-    background-color: white;
-    border-top-right-radius: 15px;
-    border-bottom-right-radius: 15px;
+    color: var(--corTexto);    
+    width: 550px;
+    margin: 100px auto;
 }
 
 .profile img {
@@ -48,22 +57,41 @@ h1 {
     border: solid 3px white;
     filter: grayscale(1);
 }
-.leftDiv {
-    height: 800px;
-    font-size: 16px;
-    width: 80%;
-    display: inline-block;
-    background-color: var(--corFundo);
+
+.habilitiesList {
+    font-size: 20px;
+    color: white;
+}
+
+.habilitiesList h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.habilitiesList ul {
+    width: max-content;
+    margin: 20px auto;
+}
+
+.habilitiesList li {
+    font-size: 20px;
+    list-style: none;
+    text-align: center;
+    margin: 20px;
+    color: white;
 }
 
 .contact {
     display: inline-block;
     width: 20%;
-    height: 800px;
+    height: 100%;
     vertical-align: top;
-    background-image: linear-gradient(to right, rgb(214, 97, 76), var(--corNavigation2));
 }
 
+.contact ul {
+    width: max-content;
+    margin: 100px auto;
+}
 .contact li{
     font-size: 20px;
     list-style: none;
@@ -78,7 +106,6 @@ h1 {
     font-size: 16px;
     text-align: justify;
     color: var(--corTexto);
-    background-image: linear-gradient(to right, var(--corNavigation1), var(--corNavigation2));
     margin: 0px 0px 0px 0px;
     padding: 30px 80% 30px 30px;
 }
