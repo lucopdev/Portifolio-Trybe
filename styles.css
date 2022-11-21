@@ -64,12 +64,12 @@ body {
     margin: 50px auto;
 }
 
-.profile img {
+.imgProfile {
     width: 350px;
     border-radius: 100%;
     margin: 50px 0px 0px 0px;
     border: solid 3px white;
-    filter: grayscale(1);
+    filter: grayscale(100%);
 }
 
 h1 {
