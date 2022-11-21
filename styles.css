@@ -38,10 +38,17 @@ h1 {
     display: inline-block;
     background-color: rgb(44, 44, 44);
 }
+
+.profile {
+    width: fit-content;
+    margin: 50px auto;
+}
+
 .descriptionDiv {
     width: 100%;
 }
 .descriptionDiv p {
+    font-size: 16px;
     width: 250px;
     text-align: justify;
     color: var(--corTexto);
@@ -60,11 +67,18 @@ h1 {
     background-color: rgb(255, 255, 255);
 }
 
-.rightDiv h2, p, ul {
-    font-size: 16px;
+.rightDiv h2 {
+    font-size: 80px;
 }
 
-.profile {
-    width: fit-content;
-    margin: 50px auto;
+.content ul, li{
+    list-style: none;
+    font-size: 25px;
+    margin: 10px auto 20px auto;
+}
+
+.content {
+    text-align: center;
+    width: 400px;
+    margin: 100px auto 0px auto;
 }
