@@ -1,5 +1,6 @@
 :root {
-    --corTexto: rgb(0, 0, 0);
+    --corTexto: #000000;
+    --corEscura: #2c2c2c;
 }
 
 * {
@@ -10,7 +11,8 @@
 }
 
 body {
-    height: max-content;
+    height: 800px;
+    background-color: blue;
 }
 
 h1 {
@@ -34,9 +36,9 @@ h1 {
 .leftDiv {
     height: 100%;
     font-size: 16px;
-    width: 50%;
+    width: 60%;
     display: inline-block;
-    background-color: rgb(44, 44, 44);
+    background-color: var(--corEscura);
 }
 
 .profile {
@@ -44,10 +46,10 @@ h1 {
     margin: 50px auto;
 }
 
-.descriptionDiv {
+.descriptionSection {
     width: 100%;
 }
-.descriptionDiv p {
+.descriptionSection p {
     font-size: 16px;
     width: 250px;
     text-align: justify;
@@ -61,7 +63,7 @@ h1 {
 
 .rightDiv {
     vertical-align: top;
-    width: 50%;
+    width: 40%;
     height: 95%;
     display: inline-block;
     background-color: rgb(255, 255, 255);
@@ -69,16 +71,21 @@ h1 {
 
 .rightDiv h2 {
     font-size: 80px;
+    color: white;
 }
 
 .content ul, li{
     list-style: none;
     font-size: 25px;
     margin: 10px auto 20px auto;
+    color: white;
 }
 
 .content {
     text-align: center;
-    width: 400px;
-    margin: 100px auto 0px auto;
+    width: 450px;
+    height: 450px;
+    margin: 100px 0px 0px 0px;
+    padding: 7px 0px 0px 30%;
+    background-color: var(--corEscura);
 }
