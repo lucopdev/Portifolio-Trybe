@@ -1,0 +1,141 @@
+:root {
+    --corTexto: #cccccc;
+    --corFundo: #171717;
+    --corNavigation1: #08A2C6;
+    --corNavigation2: #F5522C;
+}
+
+* {
+    font-size: 0px;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+body {
+    background-image: linear-gradient(to right, var(--corNavigation1), var(--corNavigation2));
+}
+.navigation {
+    height: 80px;
+    background-image: linear-gradient(to right, var(--corNavigation1), var(--corNavigation2));
+  
+}
+
+.navigation ul {
+    text-align: right;
+}
+
+.navigation li {
+    font-size: 25px;
+    display: inline-block;
+    color: white;
+    margin: 20px 40px 10px 10px;
+}
+
+.contact {
+    display: inline-block;
+    width: 20%;
+    height: 100%;
+    vertical-align: top;
+}
+
+.contact ul {
+    width: max-content;
+    margin: 100px auto;
+}
+.contact li{
+    font-size: 20px;
+    list-style: none;
+    
+}
+
+.leftDiv {
+    height: max-content;
+    font-size: 16px;
+    width: 80%;
+    display: inline-block;
+    background-color: var(--corFundo);
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.profile {
+    width: fit-content;
+    margin: 50px auto;
+}
+
+.profile img {
+    width: 350px;
+    border-radius: 100%;
+    margin: 50px 0px 0px 0px;
+    border: solid 3px white;
+    filter: grayscale(1);
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: var(--corTexto);    
+    width: 550px;
+    margin: 20px auto 200px auto;
+}
+
+.images {
+    width: max-content;
+    margin: auto;
+}
+
+.img1 {
+    width: 350px;
+    height: 300px;
+    display: inline-block;
+    border: solid 5px white;
+}
+
+.img2 {
+    width: 350px;
+    height: 300px;
+    display: inline-block;
+    border: solid 5px white;
+}
+
+.img3 {
+    width: 350px;
+    height: 300px;
+    display: inline-block;
+    border: solid 5px white;
+}
+
+.descriptionSection p {
+    font-size: 32px;
+    text-align: justify;
+    width: 600px;
+    margin: 200px auto 200px auto;
+    color: var(--corTexto);
+    
+}
+
+.habilitiesList {
+    font-size: 20px;
+    color: white;
+    margin: 0px 0px 0px 0px;
+    padding: 30px 80% 30px 30px;
+}
+
+.habilitiesList h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.habilitiesList ul {
+    width: max-content;
+    margin: 20px auto;
+}
+
+.habilitiesList li {
+    font-size: 20px;
+    list-style: none;
+    text-align: center;
+    margin: 20px;
+    color: white;
+}
