@@ -41,3 +41,30 @@ h1 {
 .descriptionDiv {
     width: 100%;
 }
+.descriptionDiv p {
+    width: 250px;
+    text-align: justify;
+    color: var(--corTexto);
+    background-color: white;
+    padding: 30px 300% 30px 30px;
+    margin: auto;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.rightDiv {
+    vertical-align: top;
+    width: 50%;
+    height: 95%;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+}
+
+.rightDiv h2, p, ul {
+    font-size: 16px;
+}
+
+.profile {
+    width: fit-content;
+    margin: 50px auto;
+}
