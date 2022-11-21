@@ -1,119 +1,43 @@
 :root {
-    --corTexto: white;
+    --corTexto: rgb(0, 0, 0);
 }
 
 * {
-    font-size: 16px;
+    font-size: 0px;
     margin: 0px;
     padding: 0px;
+
 }
 
 body {
-    background-color: rgb(29, 87, 68);
+    height: max-content;
 }
 
-.hero-title {
+h1 {
+    font-size: 40px;
     text-align: center;
-    font-size: 300%;
-    font-family: sans-serif;
     color: var(--corTexto);
-    margin: 50px 0px 100px 0px;
-    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.685);
-}
-
-.leftDiv {
-    text-align: left;
-    width: 400px;
-    margin: 0px 100px 0px 150px;
-    display: inline-block;
-}
-
-.imgDiv {
-    text-align: center;
-    margin: -10px 0px 10px 0px;
-}
-
-.imgProfile {
-    border-radius: 100%;
-    width: 250px;
-    border:solid 8px rgb(16, 32, 27);
-}
-
-.descriptionDiv p{
-    background-color: var(--corTexto);
-    width: 33%;
-    padding: 40px;
-    border-top-right-radius: 100px;
-    border-top-left-radius: 100px;
-    border-bottom-right-radius: 100px;
-    margin: 0px 0px 0px 260px;
-    text-align: justify;
-    font-size: 85%;
-    font-weight: 600;
-    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.445);
-    border: solid;
-}
-
-.rightDiv {
-    vertical-align: top;
-    display: inline-block;
-    width: 300px;
-    margin: 20px 0px 150px 100px;
-    padding: 50px;
-    border: solid white;
-}
-
-.rightDiv ul {
-    width: 250px;
-    text-align: center;
-    margin: auto;
-}
-
-.rightDiv li {
-    list-style: none;
     margin: 50px 0px;
-    color: var(--corTexto);
-    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.685);
-}
-
-h2 {
-    color: var(--corTexto);
-    text-align: center;
-    font-size: 250%;
-    text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.685);
-}
-
-.li1 {
-    font-size: 220%;
-}
-
-.li2 {
-    font-size: 170%;
-}
-
-.li3 {
-    font-size: 130%;
-}
-
-.li4 {
-    font-size: 90%;
-}
-
-.link1, .link2 {
-    display: block;
-    font-size: 200%;
-    text-align: center;
-    text-decoration: none;
-    margin: 10px 0px 80px 0px;
-}
-
-.deschampsLink {
-    width: 300px;
-    text-align: justify;
-    margin: auto;
+    padding: 10px 10px 10px 35%;
+    width: 200px;
     background-color: white;
-    padding: 20px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
-.deschampsLink p, .deschampsLink em, .deschampsLink strong {
-    font-size: 25px;
+
+.imgDiv img {
+    width: 250px;
+    border-radius: 100%;
+    margin: 0px 0px 40px 0px;
+    border: solid 3px white;
+}
+.leftDiv {
+    height: 100%;
+    font-size: 16px;
+    width: 50%;
+    display: inline-block;
+    background-color: rgb(44, 44, 44);
+}
+.descriptionDiv {
+    width: 100%;
 }
