@@ -42,25 +42,41 @@ body {
     border-bottom-right-radius: 50px;
 }
 
-h1 {
-    font-size: 40px;
-    text-align: center;
-    color: var(--corTexto);    
-    width: 550px;
-    margin: 100px auto;
+.profile {
+    width: fit-content;
+    margin: 50px auto;
 }
 
 .profile img {
-    width: 250px;
+    width: 350px;
     border-radius: 100%;
-    margin: 0px 0px 40px 0px;
+    margin: 50px 0px 0px 0px;
     border: solid 3px white;
     filter: grayscale(1);
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: var(--corTexto);    
+    width: 550px;
+    margin: 20px auto 200px auto;
+}
+
+.descriptionSection p {
+    font-size: 35px;
+    text-align: justify;
+    width: 600px;
+    margin: 800px auto 200px auto;
+    color: var(--corTexto);
+    
 }
 
 .habilitiesList {
     font-size: 20px;
     color: white;
+    margin: 0px 0px 0px 0px;
+    padding: 30px 80% 30px 30px;
 }
 
 .habilitiesList h2 {
@@ -95,17 +111,4 @@ h1 {
 .contact li{
     font-size: 20px;
     list-style: none;
-}
-
-.profile {
-    width: fit-content;
-    margin: 50px auto;
-}
-
-.descriptionSection p {
-    font-size: 16px;
-    text-align: justify;
-    color: var(--corTexto);
-    margin: 0px 0px 0px 0px;
-    padding: 30px 80% 30px 30px;
 }
