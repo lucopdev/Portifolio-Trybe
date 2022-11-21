@@ -1,7 +1,8 @@
 :root {
     --corTexto: #000000;
-    --corFundo: #314258;
-    --corNavigation: #424242;
+    --corFundo: #171717;
+    --corNavigation1: #08A2C6;
+    --corNavigation2: #F5522C;
 }
 
 * {
@@ -13,9 +14,8 @@
 
 .navigation {
     height: 50px;
-    background-color: var(--corNavigation);
-    box-shadow: 1px 1px 10px 4px black;
-    margin:2px 0px 4px 0px;
+    background-image: linear-gradient(to right, var(--corNavigation1), var(--corNavigation2)) ;
+  
 }
 
 .navigation ul {
@@ -27,10 +27,6 @@
     display: inline-block;
     color: white;
     margin: 10px 40px 10px 10px;
-}
-
-body {
-    height: 800px;
 }
 
 h1 {
@@ -50,6 +46,7 @@ h1 {
     border-radius: 100%;
     margin: 0px 0px 40px 0px;
     border: solid 3px white;
+    filter: grayscale(1);
 }
 .leftDiv {
     height: 100%;
@@ -64,7 +61,7 @@ h1 {
     width: 20%;
     height: 500px;
     vertical-align: top;
-    background-color: red;
+    background-color: var(--corNavigation2);
 }
 
 .contact li{
@@ -81,7 +78,8 @@ h1 {
     font-size: 16px;
     text-align: justify;
     color: var(--corTexto);
-    background-color: rgb(252, 255, 103);
+    background-color: var(--corNavigation1);
+    margin: 200px 0px 0px 0px;
     padding: 30px 80% 30px 30px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
