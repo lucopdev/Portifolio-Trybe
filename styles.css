@@ -1,6 +1,7 @@
 :root {
     --corTexto: #000000;
-    --corEscura: #2c2c2c;
+    --corFundo: #314258;
+    --corNavigation: #424242;
 }
 
 * {
@@ -10,9 +11,26 @@
 
 }
 
+.navigation {
+    height: 50px;
+    background-color: var(--corNavigation);
+    box-shadow: 1px 1px 10px 4px black;
+    margin:2px 0px 4px 0px;
+}
+
+.navigation ul {
+    text-align: right;
+}
+
+.navigation li {
+    font-size: 25px;
+    display: inline-block;
+    color: white;
+    margin: 10px 40px 10px 10px;
+}
+
 body {
     height: 800px;
-    background-color: blue;
 }
 
 h1 {
@@ -27,7 +45,7 @@ h1 {
     border-bottom-right-radius: 15px;
 }
 
-.imgDiv img {
+.profile img {
     width: 250px;
     border-radius: 100%;
     margin: 0px 0px 40px 0px;
@@ -36,9 +54,22 @@ h1 {
 .leftDiv {
     height: 100%;
     font-size: 16px;
-    width: 60%;
+    width: 80%;
     display: inline-block;
-    background-color: var(--corEscura);
+    background-color: var(--corFundo);
+}
+
+.contact {
+    display: inline-block;
+    width: 20%;
+    height: 500px;
+    vertical-align: top;
+    background-color: red;
+}
+
+.contact li{
+    font-size: 20px;
+    list-style: none;
 }
 
 .profile {
@@ -46,46 +77,12 @@ h1 {
     margin: 50px auto;
 }
 
-.descriptionSection {
-    width: 100%;
-}
 .descriptionSection p {
     font-size: 16px;
-    width: 250px;
     text-align: justify;
     color: var(--corTexto);
-    background-color: white;
-    padding: 30px 300% 30px 30px;
-    margin: auto;
+    background-color: rgb(252, 255, 103);
+    padding: 30px 80% 30px 30px;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
-}
-
-.rightDiv {
-    vertical-align: top;
-    width: 40%;
-    height: 95%;
-    display: inline-block;
-    background-color: rgb(255, 255, 255);
-}
-
-.rightDiv h2 {
-    font-size: 80px;
-    color: white;
-}
-
-.content ul, li{
-    list-style: none;
-    font-size: 25px;
-    margin: 10px auto 20px auto;
-    color: white;
-}
-
-.content {
-    text-align: center;
-    width: 450px;
-    height: 450px;
-    margin: 100px 0px 0px 0px;
-    padding: 7px 0px 0px 30%;
-    background-color: var(--corEscura);
 }
