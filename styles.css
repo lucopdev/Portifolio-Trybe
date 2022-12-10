@@ -1,23 +1,29 @@
 :root {
-    --corTexto: #cccccc;
-    --corFundo: #171717;
+    --corTexto1: #d6d6d6;
+    --corTexto2: #9e9e9e;
+    --corFundo: #202020;
     --corNavigation1: #08A2C6;
     --corNavigation2: #F5522C;
+    --corNavigation3: #2fc18c;
+    --corNavigation4: #41197f;
+    --corNavigation5: #272727;
 }
 
 * {
     font-size: 0px;
     margin: 0px;
     padding: 0px;
+    font-family: Montserrat, sans-serif;
+    font-weight: bolder;
 
 }
 
 body {
-    background-image: linear-gradient(to right, var(--corNavigation1), var(--corNavigation2));
+    background-image: linear-gradient(to right, var(--corNavigation1), var(--corNavigation4));
 }
 .navigation {
     height: 80px;
-    background-image: linear-gradient(to right, var(--corNavigation1), var(--corNavigation2));
+    background-image: linear-gradient(to right, var(--corNavigation1), var(--corNavigation4));
   
 }
 
@@ -28,7 +34,10 @@ body {
 .navigation li {
     font-size: 25px;
     display: inline-block;
-    color: white;
+    background-image: linear-gradient(to right, var(--corTexto2), var(--corTexto1));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     margin: 20px 40px 10px 10px;
 }
 
@@ -40,7 +49,7 @@ body {
 }
 
 .contact ul {
-    width: max-content;
+    width: 20%;
     margin: 100px auto;
 }
 .contact li{
@@ -54,8 +63,8 @@ body {
     width: 80%;
     display: inline-block;
     background-color: var(--corFundo);
-    border-top-right-radius: 50px;
-    border-bottom-right-radius: 50px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
 }
 
 .profile {
@@ -74,14 +83,14 @@ body {
 h1 {
     font-size: 50px;
     text-align: center;
-    color: var(--corTexto);    
+    color: var(--corTexto1);    
     width: 550px;
     margin: 20px auto 200px auto;
 }
 
 .images {
     width: max-content;
-    margin: auto;
+    margin: 350px auto;
 }
 
 .img1 {
@@ -105,20 +114,26 @@ h1 {
     border: solid 5px white;
 }
 
+.descriptionSection {
+    background-image: linear-gradient(to right, var(--corNavigation1), var(--corNavigation4));
+    margin: 350px auto;
+    width: 900px;
+    height: 350px;
+}
 .descriptionSection p {
-    font-size: 32px;
+    font-size: 29px;
     text-align: justify;
     width: 600px;
-    margin: 200px auto 200px auto;
-    color: var(--corTexto);
-    
+    margin: 0px auto 0px auto;
+    padding: 45px;
+    color: var(--corNavigation5);
+    line-height: 42px;
 }
 
 .habilitiesList {
     font-size: 20px;
     color: white;
-    margin: 0px 0px 0px 0px;
-    padding: 30px 80% 30px 30px;
+    margin: 350px auto;
 }
 
 .habilitiesList h2 {
